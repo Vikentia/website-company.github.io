@@ -1,0 +1,21 @@
+.container {
+    
+}
+.first_block {
+    background: url(website-company\img\bg-first-block.jpg);
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 0;
+}
+.logo img{
+    height: 50px;
+}
+.contacts img{
+    height: 30px;
+}
+.contacts {
+    display: flex;
+}
