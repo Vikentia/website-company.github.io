@@ -1,21 +1,69 @@
 .container {
+    background-image: url(./img/bg-first-block.jpg);
+    background-color: gray;
+     min-width: 880px;
+     min-height: 700px;
     
 }
 .first_block {
-    background: url(website-company\img\bg-first-block.jpg);
+    height: 100%;
+    width: 100%;
 
 }
 .header {
     display: flex;
     justify-content: space-between;
     padding: 20px 30px 0;
+    align-items: center;
+}
+.menu a{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
 }
 .logo img{
     height: 50px;
+    position: relative;
+    right: 40px;
 }
 .contacts img{
     height: 30px;
+    fill: white;
 }
 .contacts {
     display: flex;
+}
+.text-first-block {
+    text-align: center;
+    align-items: center;
+    margin: 0 15%;
+}
+.menu, .title, .sub-title, .button {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.title {
+      font-size: 60px;
+    font-weight: 600;
+}
+.sub-title {
+       font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+.button {
+font-size: 16px;
+font-weight: 700;
+color: white;
+background: rgb(245, 145, 79);
+border: none;
+border-radius: 3px;
+padding: 20px 50px;
+cursor: pointer;
+
+}
+.button:hover {
+    background: rgb(198, 118, 65);
 }
